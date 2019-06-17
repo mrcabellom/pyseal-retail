@@ -1,0 +1,14 @@
+name: responsibleai-he
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyter
+  - matplotlib
+  - numpy
+  - nb_conda
+  - pip:
+      - azure-storage==0.36.0
+      - singleton-decorator==1.0.0
+      - tensorflow=1.12.0
+
